@@ -1,0 +1,28 @@
+{
+  "name": "PL_P1",
+  "version": "1.0.0",
+  "description": "Práctica 1 de Procesadores de Lenguajes // Conversor de temperaturas",
+  "main": "javascripts/temperature.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "open tests/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alu0100696455/PL_P1.git"
+  },
+  "keywords": [
+    "regexp"
+  ],
+  "author": "Jonathan Expósito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alu0100696455/PL_P1/issues"
+  },
+  "homepage": "https://github.com/alu0100696455/PL_P1",
+  "devDependencies": {
+    "chai": "^2.0.0"
+  }
+}
