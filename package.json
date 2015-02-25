@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/alu0100696455/PL_P1",
   "devDependencies": {
-    "chai": "^2.0.0"
+    "chai": "^2.0.0",
+    "gulp": "^3.8.11"
   }
 }
