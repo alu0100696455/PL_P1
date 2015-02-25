@@ -7,15 +7,15 @@ var minifyHTML = require('gulp-minify-html');
 var minifyCSS  = require('gulp-minify-css');
 
 gulp.task('minify', function () {
-  gulp.src('temperature.js')
+  gulp.src('javascripts/temperature.js')
   .pipe(uglify())
   .pipe(gulp.dest('minified'));
 
-  gulp.src('./index.html')
+  gulp.src('index.html')
     .pipe(minifyHTML())
     .pipe(gulp.dest('./minified/'))
 
-  gulp.src('./*.css')
+  gulp.src('stylesheets/*.css')
    .pipe(minifyCSS({keepBreaks:true}))
    .pipe(gulp.dest('./minified/'))
 });
